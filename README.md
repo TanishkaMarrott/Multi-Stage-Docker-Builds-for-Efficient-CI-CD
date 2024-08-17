@@ -45,3 +45,6 @@ Multi-stage builds allow you to create lean and efficient Docker images by separ
    ```bash
    docker run -p 8080:8080 your-image-name
 
+## Contributions
+
+Feel free to contribute by adding more examples or improving existing ones. Fork this repository, create a new branch, and submit a pull request.
