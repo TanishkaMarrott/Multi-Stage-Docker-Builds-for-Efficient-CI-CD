@@ -33,5 +33,5 @@ Uses a full Node.js environment to install dependencies and build the applicatio
 
 - Second Stage (Runtime Stage): 
 Uses a lightweight Node.js image to run the application.
-- COPY --from=build: Copies the built application and node_modules from the build stage.
-- CMD ["node", "dist/index.js"]: Specifies the command to run the application.
+    - COPY --from=build: Copies the built application and node_modules from the build stage.
+    - CMD ["node", "dist/index.js"]: Specifies the command to run the application.
